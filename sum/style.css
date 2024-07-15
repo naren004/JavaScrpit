@@ -1,0 +1,43 @@
+#border{
+    border: none;
+    width: 260px;
+    height: 160px;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 2px 3px 10px 0px black;
+    padding: 30px 30px;
+}
+input[type=text]{
+    border-radius: 5px;
+    border-color: blue;
+    padding: 5px;
+}
+#add{
+    color: white;
+    /* width: 100px;
+    height: 40px; */
+    background-color: chocolate;
+    border:none;
+    border-color: darkgreen;
+    padding: 10px 45px;
+}
+#clear{
+    color: white;
+    /* width: 85px;
+    height: 30px; */
+    background-color: rgb(30, 210, 141);
+    border:none;
+    border-color: darkgreen;
+    padding: 10px 45px;
+    color: white;
+}
+h3{
+    text-align: center;
+}
+button{
+    border-radius: 10px;
+    border-color: black;
+}
